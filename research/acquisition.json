@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-06",
+  "source": "User-owned SSP microSD BOOT partition, mounted read-only",
+  "files": [
+    {
+      "path": "boot/SYNTHOR",
+      "size": 5242920,
+      "sha256": "6bf2506dec8c582a82152f6acd42be472bec8a67689890324d9fe5c3fb46397c"
+    },
+    {
+      "path": "boot/extlinux/extlinux.conf",
+      "size": 257,
+      "sha256": "008aa485c7b210f78fb8e6f6d8a64b00a5494799542ef79d626f9a98f70ce27d"
+    },
+    {
+      "path": "boot/rk3288-percussa-engine-euro.dtb",
+      "size": 46009,
+      "sha256": "5a24f13cac47f89965958f6bc2f2f68ac60c3c5fe0b9ced67fdc1268d0fa02cb"
+    },
+    {
+      "path": "boot/zImage",
+      "size": 9437200,
+      "sha256": "03ffe0642d066a53b353d394fa450b4b42980fdffe0085050e457d96d4446812"
+    }
+  ]
+}
