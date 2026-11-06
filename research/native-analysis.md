@@ -22,6 +22,19 @@ Provider profile digest:
 `0ea988610b184253da7e1742f2cf306d523e136e3f2ea46f414fbcf3e7eeea59`.
 Raw MCP responses remain local under ignored `artifacts/mcp/`.
 
+The ELF dynamic section independently confirms 16 required shared libraries
+and version references including GLIBC_2.30 and GLIBCXX_3.4.21. Full declared
+requirements are recorded in [application-abi.json](application-abi.json).
+These are application requirements, not a measurement of the installed libc.
+
+The acquired zImage contains a gzip payload at offset 30072. Decompression
+produces 25,116,204 bytes and a Linux 5.13.13-00056-g5031957dda5b version banner,
+built with GCC 8.4.0 from Buildroot 2021.05.1-15-gaca838b851. See
+[kernel.json](kernel.json) for hashes and details. The extlinux label kernel-4.4
+is therefore stale. This identifies the acquired kernel image, not a live uname
+measurement. No IKCFG_ST embedded-config marker was found in the decompressed
+payload, so a kernel configuration has not been recovered by this check.
+
 ## Controls
 
 The constructor-like function at `0xaec70` opens four

@@ -1,0 +1,18 @@
+{
+  "source_path": "boot/zImage",
+  "source_sha256": "03ffe0642d066a53b353d394fa450b4b42980fdffe0085050e457d96d4446812",
+  "compression": "gzip",
+  "payload_offset": 30072,
+  "uncompressed_size": 25116204,
+  "uncompressed_sha256": "24db3e5ee499285a2e460f08eabacbe9766b4e4664ebf66b4d663c76d3ccf045",
+  "kernel_release": "5.13.13-00056-g5031957dda5b",
+  "compiler": "GCC 8.4.0 (Buildroot 2021.05.1-15-gaca838b851)",
+  "linker": "GNU ld 2.36.1",
+  "build_flags": [
+    "SMP",
+    "PREEMPT"
+  ],
+  "build_timestamp": "2022-07-11 20:46:55 PDT",
+  "evidence": "Version banner in decompressed boot kernel; this identifies the acquired image, not a live uname measurement.",
+  "ikconfig_marker_found": false
+}

@@ -55,6 +55,13 @@ inspection; rerunning refuses to overwrite it. The script never writes to the
 card. A verified image still needs a restore-and-boot test on a spare card to
 establish recovery in practice.
 
+If copying completed but verification was interrupted, stop the previous
+process before running `python3 scripts/backup_sd.py --verify-existing`.
+This requires a full-length partial image and repeats identity/hash checks
+without recopying. Verification streams `sudo dd` with 4 MiB raw-device reads
+into SHA-256; directly running shasum on the raw device used small reads and
+proved substantially slower on this SD reader.
+
 After verification:
 
 ```sh
