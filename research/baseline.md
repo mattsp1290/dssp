@@ -1,5 +1,10 @@
 # SSP baseline — 2026-11-06
 
+This records the initial acquisition. Subsequent native analysis is documented
+in [native-analysis.md](native-analysis.md), with working prerequisites and
+backup procedures in [tooling.md](tooling.md). The original space constraint
+below has since been resolved; full-image verification is tracked separately.
+
 ## Objective and approach
 
 The end goal is custom firmware/software. First establish a replacement Linux
