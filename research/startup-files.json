@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/etc/init.d/S90synthor",
+    "size": 385,
+    "sha256": "085c0125b3d7fdde39d7bf2750e9d3a1548dbdf2f0cd6d72c5dc59513c8d9b5b"
+  },
+  {
+    "path": "/etc/init.d/rcS",
+    "size": 408,
+    "sha256": "dc1615df9f2012b20b81ffad8e07e16293039ba7fd897854ca3646d6cfea0c0f"
+  },
+  {
+    "path": "/root/synthor.sh",
+    "size": 904,
+    "sha256": "0f9c8fdf2ab175dbc30f812a3fce5b262c01d4746de2559c4951d361e273554b"
+  },
+  {
+    "path": "/root/gadget.sh",
+    "size": 72,
+    "sha256": "de16f8431985df6df05369460e729a57b596624c127d2ba730480cf481cffc11"
+  },
+  {
+    "path": "/root/gadget.sh.backup",
+    "size": 1292,
+    "sha256": "09b3937411a0a23bbf2d2420036a570a972b0d240307dff11b08350a8e3008f5"
+  },
+  {
+    "path": "/root/audio-tests.txt",
+    "size": 251,
+    "sha256": "36ed32fa1365dff5b7b51bfd6d33e2e6ae7b559aec6af1ba065d08837de2f52e"
+  },
+  {
+    "path": "/usr/lib/os-release",
+    "size": 116,
+    "sha256": "7a6d4a8eab7a0ccc388aff068957b88794e9661dad47c0da7a89a86ecbb2405c"
+  }
+]

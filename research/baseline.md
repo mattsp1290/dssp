@@ -3,7 +3,9 @@
 This records the initial acquisition. Subsequent native analysis is documented
 in [native-analysis.md](native-analysis.md), with working prerequisites and
 backup procedures in [tooling.md](tooling.md). The original space constraint
-below has since been resolved; full-image verification is tracked separately.
+below has since been resolved. The full image is now verified; see
+[root filesystem findings](rootfs-analysis.md) and [backup manifest](sd-backup.json).
+The acquisition narrative below describes the initial stage.
 
 ## Objective and approach
 
@@ -95,9 +97,8 @@ The Docker CLI exists, but its selected colima context is missing.
 
 - [x] Record USB exposure and acquire the principal BOOT files with hashes.
 - [x] Run REA artifact inventory on the exact installed SYNTHOR.
-- [ ] Preserve a complete SD image to a destination with sufficient space and
-  verify recovery on a spare card. The Mac had about 17 GiB free, insufficient
-  for an uncompressed 31.9 GB image.
+- [x] Preserve and hash-verify a complete SD image.
+- [ ] Verify recovery by restoring and booting a spare card.
 - [ ] Configure a native analysis provider and map SYNTHOR startup, ALSA setup,
   display initialization, control events, USB gadget setup, and plugin loading.
   Record addresses, cross-references, and uncertainty for each finding.
