@@ -1,0 +1,9 @@
+{
+  "image": "ssp-sd.img",
+  "size": 31914983424,
+  "sha256": "c95087ca44b910c89362c0401f6b6913ed0f255dfd52f3a6619f1bcc32091c26",
+  "source_sha256": "c95087ca44b910c89362c0401f6b6913ed0f255dfd52f3a6619f1bcc32091c26",
+  "verified": true,
+  "device_at_acquisition": "/dev/rdisk4",
+  "boot_volume_uuid": "51702461-01E5-35F7-B93C-76C5FCA77862"
+}

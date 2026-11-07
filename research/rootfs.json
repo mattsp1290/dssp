@@ -1,0 +1,8 @@
+{
+  "partition": 7,
+  "partuuid": "d12ad4f6-2ae1-4071-b747-8807fd16e0dc",
+  "offset": 20988297216,
+  "size": 9437184000,
+  "sha256": "85b3cab1d4e5c91494bdac7e2f1a25d7e1a6ab57e76924f850d711bded7c6562",
+  "image_sha256": "c95087ca44b910c89362c0401f6b6913ed0f255dfd52f3a6619f1bcc32091c26"
+}

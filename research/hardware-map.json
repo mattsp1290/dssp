@@ -1,0 +1,183 @@
+{
+  "dtb_sha256": "5a24f13cac47f89965958f6bc2f2f68ac60c3c5fe0b9ced67fdc1268d0fa02cb",
+  "board_compatible": "percussa,percussa-engine-euro rockchip,rk3288",
+  "audio_compatible": "rockchip,rk3288-sdio-snd",
+  "panel": {
+    "clock-frequency": 52852000,
+    "hactive": 1600,
+    "vactive": 480
+  },
+  "encoders": [
+    {
+      "node": "/rotary@0",
+      "driver": "rotary-encoder",
+      "axis": 0,
+      "gpios_raw": [
+        76,
+        10,
+        0,
+        76,
+        9,
+        0
+      ]
+    },
+    {
+      "node": "/rotary@1",
+      "driver": "rotary-encoder",
+      "axis": 0,
+      "gpios_raw": [
+        76,
+        0,
+        0,
+        76,
+        6,
+        0
+      ]
+    },
+    {
+      "node": "/rotary@2",
+      "driver": "rotary-encoder",
+      "axis": 0,
+      "gpios_raw": [
+        76,
+        13,
+        0,
+        76,
+        16,
+        0
+      ]
+    },
+    {
+      "node": "/rotary@3",
+      "driver": "rotary-encoder",
+      "axis": 0,
+      "gpios_raw": [
+        76,
+        8,
+        0,
+        76,
+        7,
+        0
+      ]
+    }
+  ],
+  "encoder_buttons": [
+    {
+      "label": "Encoder 1 Push Button",
+      "linux_code": 2
+    },
+    {
+      "label": "Encoder 2 Push Button",
+      "linux_code": 3
+    },
+    {
+      "label": "Encoder 3 Push Button",
+      "linux_code": 4
+    },
+    {
+      "label": "Encoder 4 Push Button",
+      "linux_code": 5
+    }
+  ],
+  "keypad": {
+    "rows": 3,
+    "columns": 6,
+    "debounce_ms": 5,
+    "keys": [
+      {
+        "row": 0,
+        "column": 0,
+        "linux_code": 59
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "linux_code": 60
+      },
+      {
+        "row": 0,
+        "column": 2,
+        "linux_code": 61
+      },
+      {
+        "row": 0,
+        "column": 3,
+        "linux_code": 62
+      },
+      {
+        "row": 0,
+        "column": 4,
+        "linux_code": 63
+      },
+      {
+        "row": 0,
+        "column": 5,
+        "linux_code": 64
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "linux_code": 65
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "linux_code": 66
+      },
+      {
+        "row": 1,
+        "column": 2,
+        "linux_code": 67
+      },
+      {
+        "row": 1,
+        "column": 3,
+        "linux_code": 68
+      },
+      {
+        "row": 1,
+        "column": 4,
+        "linux_code": 87
+      },
+      {
+        "row": 1,
+        "column": 5,
+        "linux_code": 88
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "linux_code": 183
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "linux_code": 184
+      },
+      {
+        "row": 2,
+        "column": 2,
+        "linux_code": 185
+      },
+      {
+        "row": 2,
+        "column": 3,
+        "linux_code": 186
+      },
+      {
+        "row": 2,
+        "column": 4,
+        "linux_code": 187
+      },
+      {
+        "row": 2,
+        "column": 5,
+        "linux_code": 188
+      }
+    ]
+  },
+  "limitations": [
+    "Device-tree declarations only; runtime event behavior and physical button labels are unverified.",
+    "GPIO cells contain phandle references, not physical header pin numbers."
+  ]
+}
